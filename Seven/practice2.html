@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                font-family: Georgia Bold;
+                text-align: center;
+                color:red;
+            }
+
+            #par{
+                font-family: Calibri;
+                text-align: center;
+                border-style: solid;
+                border-color: green;
+                border-width: 15px;
+            }
+
+            input[type = text], select{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=submit] {
+                width: 100%;
+                background-color: gray;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+        <h1>How do you want to alter this text?</h1>
+        <div id="par">i'm gonna be honest, i think rail grinders from dimensions is one of the best stages from that pack. 
+            you get to jump directly from one set of gutters to another which is a direct callback to another game 
+            in the series called banana blitz. it also has a good sense of difficulty progression as the first gutter j
+            ump has the player rebounding off a vertical wall to help them land the jump, followed by a section containing 
+            flat spaced gaps which help prepare the player for what's to come next by increasing tension and adrenaline, 
+            which finally culminates with a second gutter jump onto a sloped set of rails absent of a vertical wall. the setting also works well 
+            thematically as the player is immersed in a dark forest setting where they must carefully watch every step they make in order to escape 
+            the forest without getting hurt or lost along the way. and, the stage is cool</div>
+
+        <script type="text/javascript" src="function.js"></script>
+
+        <label for="BoR">Boarder Color (R)</label>
+        <input type="text" id="BoR" name="BoR" value="">
+
+        <label for="BoG">Boarder Color (G)</label>
+        <input type="text" id="BoG" name="BoG" value="">
+
+        <label for="BoB">Boarder Color (B)</label>
+        <input type="text" id="BoB" name="BoB" value="">
+        <label for="BoW">Boarder Width</label>
+        <input type="text" id="BoW" name="BoW" value="">
+        <label for="BaR">Background Color (R)</label>
+        <input type="text" id="BaR" name="BaR" value="">
+        <label for="BaG">Background Color (G)</label>
+        <input type="text" id="BaG" name="BaG" value="">
+        <label for="BaB">Background Color (B)</label>
+        <input type="text" id="BaB" name="BaB" value="">
+
+        <button onclick="getValue()">Change</button>
+
+    </body>
+</html>
